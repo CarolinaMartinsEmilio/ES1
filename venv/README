@@ -1,0 +1,53 @@
+# TESTE UNITÁRIO EM PYTHON - ES1
+
+Descrição da Aplicação: A aplicação é uma classe chamada Aves, que representa um viveiro de aves. Esta classe possui métodos para criar, atualizar, deletar e listar informações sobre aves armazenadas no viveiro. Cada ave é representada por um dicionário contendo informações como nome, espécie e peso. O objetivo do projeto é aprender mais sobre testes, com isso foram elaborados 5 testes. Esses testes visam garantir o correto funcionamento dos métodos da classe Aves, identificando possíveis erros e assegurando a integridade dos dados no viveiro de aves.
+
+
+
+## Configuração do Ambiente
+
+### Pré-requisitos
+
+Certifique-se de ter o Python 3.10.5 instalado em seu sistema. Você pode baixá-lo em [python.org](https://www.python.org/downloads/release/).
+
+### Passos para Configuração
+
+1. **Baixar o Python 3.10.5:**
+   - Acesse [python.org](https://www.python.org/downloads/release/).
+   - Baixe e instale o Python 3.10.5, seguindo as instruções fornecidas.
+
+2. **Abrir o Projeto no VSCode:**
+   - Abra o Visual Studio Code (VSCode).
+   - Use o comando `File -> Open Folder` para abrir o diretório do projeto.
+
+3. **Abrir o Terminal do VSCode e Navegar para a Pasta "venv":**
+   - Abra o terminal no VSCode (`Ctrl + `` e selecione `New Terminal`).
+   - Navegue até a pasta "venv" usando o comando `cd`:
+     ```
+     cd venv
+     ```
+
+4. **Instalar Dependências do Projeto:**
+   - Certifique-se de estar na pasta "venv".
+   - Execute o seguinte comando para instalar as dependências do projeto:
+     ```
+     pip install -r requirements.txt
+     ```
+
+5. **Acessar a Pasta "test" no Terminal:**
+   - No terminal do VSCode, vá para a pasta "test" usando o comando `cd`:
+     ```
+     cd test
+     ```
+
+6. **Executar Testes Unitários:**
+   - Ainda no terminal, execute o seguinte comando para rodar os testes unitários:
+     ```
+     python -m unittest aves-test.py
+     ```
+
+7. **Aguardar a Conclusão dos Testes Unitários:**
+   - Aguarde até que todos os testes unitários sejam concluídos. Certifique-se de que não há erros e todos os testes passaram com sucesso.
+
+**Observação:** Se quiser saber mais sobre aves acesse: https://www.wikiaves.com.br/
+
