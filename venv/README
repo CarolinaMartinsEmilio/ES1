@@ -34,19 +34,13 @@ Certifique-se de ter o Python 3.10.5 instalado em seu sistema. Você pode baixá
      pip install -r requirements.txt
      ```
 
-5. **Acessar a Pasta "test" no Terminal:**
-   - No terminal do VSCode, vá para a pasta "test" usando o comando `cd`:
-     ```
-     cd test
-     ```
-
-6. **Executar Testes Unitários:**
+5. **Executar Testes Unitários:**
    - Ainda no terminal, execute o seguinte comando para rodar os testes unitários:
      ```
      python -m unittest aves-test.py
      ```
 
-7. **Aguardar a Conclusão dos Testes Unitários:**
+6. **Aguardar a Conclusão dos Testes Unitários:**
    - Aguarde até que todos os testes unitários sejam concluídos. Certifique-se de que não há erros e todos os testes passaram com sucesso.
 
 **Observação:** Se quiser saber mais sobre aves acesse: https://www.wikiaves.com.br/
